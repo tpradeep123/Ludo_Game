@@ -14,8 +14,6 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Ludo-LudoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Ludo-LudoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		20BFC00DE4024E828F345BB5 /* Philosopher-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E22806C2B8984AFEB850D7FE /* Philosopher-Bold.ttf */; };
-		9791BFB7CE9F4E5D9756AA33 /* Philosopher-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 226A25CC5D194963AD2F5965 /* Philosopher-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +36,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Ludo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Ludo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Ludo/main.m; sourceTree = "<group>"; };
-		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Ludo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+	    13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = Ludo/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Ludo-LudoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Ludo-LudoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-Ludo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ludo.debug.xcconfig"; path = "Target Support Files/Pods-Ludo/Pods-Ludo.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Ludo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ludo.release.xcconfig"; path = "Target Support Files/Pods-Ludo/Pods-Ludo.release.xcconfig"; sourceTree = "<group>"; };
@@ -47,8 +45,6 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Ludo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Ludo-LudoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ludo-LudoTests.release.xcconfig"; path = "Target Support Files/Pods-Ludo-LudoTests/Pods-Ludo-LudoTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		E22806C2B8984AFEB850D7FE /* Philosopher-Bold.ttf */ = {isa = PBXFileReference; name = "Philosopher-Bold.ttf"; path = "../src/assets/fonts/Philosopher-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		226A25CC5D194963AD2F5965 /* Philosopher-Regular.ttf */ = {isa = PBXFileReference; name = "Philosopher-Regular.ttf"; path = "../src/assets/fonts/Philosopher-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +124,6 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
-				08BF37A9A75C406889C01C24 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -154,16 +149,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		08BF37A9A75C406889C01C24 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				E22806C2B8984AFEB850D7FE /* Philosopher-Bold.ttf */,
-				226A25CC5D194963AD2F5965 /* Philosopher-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -260,8 +245,6 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				20BFC00DE4024E828F345BB5 /* Philosopher-Bold.ttf in Resources */,
-				9791BFB7CE9F4E5D9756AA33 /* Philosopher-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
