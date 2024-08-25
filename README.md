@@ -1,4 +1,4 @@
-[Ludo-Banner](https://github.com/user-attachments/assets/4fc7b294-3a2e-4596-98a6-556514ba3871)
+![Ludo-Banner](https://github.com/user-attachments/assets/eadcdab5-831f-4d48-bd44-1f8c6dc0520d)
 
 # Getting Started
 
