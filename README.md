@@ -1,4 +1,4 @@
-This is a new [**React Native**](https:/![Ludo-Banner](https://github.com/user-attachments/assets/4fc7b294-3a2e-4596-98a6-556514ba3871)
+[Ludo-Banner](https://github.com/user-attachments/assets/4fc7b294-3a2e-4596-98a6-556514ba3871)
 
 # Getting Started
 
