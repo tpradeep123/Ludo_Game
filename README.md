@@ -9,7 +9,7 @@
 To start Metro, run the following command from the _root_ of your React Native project:
 
 ```bash
-[npm start](https://github.com/tpradeep123/Ludo_Game.git)
+   git clone https://github.com/tpradeep123/Ludo_Game.git
 ```
 
 ## Step 2: Navigate to the project directory:
